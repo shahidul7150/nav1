@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  lato;
+    font-weight: 600;
+}
+
+.container{
+    background: rgb(235, 235, 235);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    position: absolute;
+    width: 100%;
+    margin-top: 300px;
+    background: rgb(56, 43, 43);
+    line-height: 40px;
+    text-align:center;
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 60px;
+    padding: 10px;
+    transition: 0.3s;
+
+    
+}
+
+
+nav a:hover{
+    background: rgb(255, 255, 255);
+    color:black;
+    transition: 0.3s;
+}
+#src{
+    float: right;
+    margin-right: 30px;
+    
+}
